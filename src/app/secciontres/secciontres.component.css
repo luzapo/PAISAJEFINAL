@@ -1,0 +1,34 @@
+.principal3 {
+    width: 100%;
+    display: inline-flex;
+    margin-top: 100px;
+
+}
+
+.principalinterno3 {
+    display: flex;
+    width: 100%;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+.imagen31,
+.imagen32,
+.imagen33 {
+    flex: 1;
+    padding: 10px;
+    width: 100%;
+}
+
+.ir a {
+    margin-left: 330px;
+    color: white;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+.ir a:hover {
+    background-color: #0056b3;
+    /* Cambia el color de fondo al pasar el ratón por encima */
+}

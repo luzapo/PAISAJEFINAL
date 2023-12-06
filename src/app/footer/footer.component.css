@@ -1,0 +1,33 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.copyright ul li {
+    margin-bottom: 30px;
+    margin-right: 90px;
+    list-style: none;
+    color: white;
+}
+
+.privacy {
+    margin-left: 35px;
+    margin-top: 40px;
+
+}
+
+.Moreontheblog ul li {
+    padding-bottom: 15px;
+    color: white;
+    font-size: 18px;
+    list-style: none;
+}
+
+.MoreonMNTN ul li {
+    padding-bottom: 15px;
+    margin-right: 50px;
+    color: white;
+    font-size: 18px;
+    list-style: none;
+}

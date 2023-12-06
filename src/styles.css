@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Mulish&family=Open+Sans:wght@300;400;500;600&family=Raleway:ital,wght@0,100;0,300;1,100;1,200&family=Roboto:wght@100&family=Young+Serif&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0B1D26;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}

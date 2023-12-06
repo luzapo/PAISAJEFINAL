@@ -1,0 +1,36 @@
+.social ul li {
+    margin-left: 10px;
+    margin-bottom: 30px;
+    list-style: none;
+}
+
+.mensaje ul li {
+    margin-bottom: 30px;
+    list-style: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100;
+    position: relative;
+    margin-top: 350px;
+    z-index: 2;
+}
+
+.secciones ul {
+    list-style: none;
+}
+
+.secciones ul li {
+    margin-bottom: 30px;
+    margin-right: 90px;
+    list-style: none;
+    color: white;
+}
+
+.secciones ul li a {
+    color: white;
+    text-decoration: none;
+}
