@@ -1,3 +1,13 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100;
+    position: relative;
+    margin-top: -1700px;
+    z-index: 2;
+}
+
 .social ul li {
     margin-left: 10px;
     margin-bottom: 30px;
@@ -7,16 +17,6 @@
 .mensaje ul li {
     margin-bottom: 30px;
     list-style: none;
-}
-
-.content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100;
-    position: relative;
-    margin-top: 350px;
-    z-index: 2;
 }
 
 .secciones ul {

@@ -1,0 +1,21 @@
+.centrado {
+    text-align: center;
+    /* Centra horizontalmente */
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente en flexbox */
+    align-items: center;
+    /* Centra verticalmente en flexbox */
+
+}
+
+.recordarContraseñas {
+    color: #f5f5f5;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: 22px;
+    font-family: 'Croissant One', cursive;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Young Serif', serif;
+    margin-bottom: 15px;
+}

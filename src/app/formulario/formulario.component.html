@@ -1,0 +1,49 @@
+<h1>
+    QUEREMOS CONOCERTE
+</h1>
+
+
+<section class="formulario">
+    <!-- colocar id al formulario -->
+    <form id="formularioUsuario">
+        <img src="assets/img/registro.png" alt="registrto">
+
+        <!-- colocar id al input y colocar span al id -->
+        <input type="text" placeholder="Digita tu usuario" id="usuario" />
+        <span id="usuarioError" class="color-error"></span>
+
+        <input type="password" placeholder="Digita tu contraseña" id="clave" />
+        <span id="claveError" class="color-error"></span>
+
+        <textarea name="" id="" cols="30" rows="5" maxlength="100"></textarea>
+
+
+        <div class="centrado">
+            <select name="" id="select">
+                <option value="Bogota">Bogotá</option>
+                <option value="Cali" selected>Cali</option>
+                <option value="Medellin">Medellín</option>
+            </select>
+        </div>
+
+        <button type="submit">Registrar Usuario</button>
+
+        <div class="recordarContraseñas">
+            <input type="checkbox" name="recordar">
+            <label for="recordar">Recordar contraseña</label>
+        </div>
+    </form>
+
+    <!-- enlazar al js,  instancia de la clase, le pasamos el id del formulario a la clase -->
+    <script src="./js/script.js"></script>
+    <script>
+        const formulario = new ValidadorFormulario('formularioUsuario')
+    </script>
+
+
+</section>
+
+
+<div class="vacio">
+
+</div>
