@@ -1,3 +1,8 @@
+.neblina {
+    width: auto;
+    margin-top: 800px;
+    z-index: 0;
+}
 
 .fondo {
     position: relative;
