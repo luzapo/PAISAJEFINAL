@@ -10,5 +10,5 @@ import { RouterModule } from '@angular/router';
   styleUrl: './redessociales.component.css'
 })
 export class RedessocialesComponent {
-
+  scrollto(ancla: string) { const element = document.getElementById(ancla); if (element) { element.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' }); } }
 }

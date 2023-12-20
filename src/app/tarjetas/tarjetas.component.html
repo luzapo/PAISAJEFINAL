@@ -1,30 +1,27 @@
 <section class="container mt-5">
     <div class="card-columns" id="listaValores">
 
-        <!-- -->
-        <div class="card bg-dark text-center text-white" class="prueba1">
+
+        <div class="card bg-dark text-center text-white" *ngFor="let info of data">
 
             <div class="card-header">
-                <h1 class="card-title">Nuestra MISION</h1>
-                <img class="imagenX" src="./assets/img/equipo1.jpg" alt="">
+                <h1 class="card-title">{{info.titulo}}</h1>
+                <img class="imagenX" src={{info.imagen}} alt="">
             </div>
 
             <div class="card-body">
                 <p>
-                    Nuestra misión es empoderar a los amantes de la montaña y a los aventureros al aire libre,
-                    proporcionándoles las herramientas, el conocimiento y las experiencias necesarias para explorar
-                    y disfrutar de las montañas de manera segura y enriquecedora. Nos esforzamos por ofrecer
-                    productos ...
-
+                    {{info.texto}}
                 </p>
             </div>
 
             <div class="card-footer">
-                <a href="" class="btn btn-primary">Leer mas</a>
+                <a href="" class="btn btn-primary">{{info.boton}}</a>
             </div>
 
         </div>
 
+        <!-- 
         <div class="card bg-dark text-center text-white">
 
             <div class="card-header">
@@ -67,8 +64,7 @@
 
         </div>
 
-       
+-->
 
     </div>
 </section>
-

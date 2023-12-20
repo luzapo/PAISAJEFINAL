@@ -1,16 +1,16 @@
-
-.fondo{
+.fondo {
     position: relative;
     margin-top: -100px;
     z-index: 0;
 }
-.cielo{
+
+.cielo {
     position: relative;
     margin-top: -100px;
     width: 100%;
 }
 
-.sombra{
+.sombra {
     position: absolute;
     top: 0;
     left: 0;
