@@ -13,11 +13,15 @@ import { NosotrosComponent } from './nosotros/nosotros.component';
 import { TarjetasComponent } from './tarjetas/tarjetas.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { SobrenosotrosComponent } from './sobrenosotros/sobrenosotros.component';
+import { TablavaloresComponent } from './tablavalores/tablavalores.component';
+import { VideotrabajarComponent } from './videotrabajar/videotrabajar.component';
+import { MapaencuentranosComponent } from './mapaencuentranos/mapaencuentranos.component';
+import { EquipoComponent } from './equipo/equipo.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, BannerComponent, HeaderComponent, RedessocialesComponent, InicioComponent, SobrenosotrosComponent, FooterComponent],
+  imports: [CommonModule, RouterOutlet, BannerComponent, HeaderComponent, RedessocialesComponent, InicioComponent, SobrenosotrosComponent, EquipoComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

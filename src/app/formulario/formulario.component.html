@@ -5,14 +5,14 @@
 
 <section class="formulario">
     <!-- colocar id al formulario -->
-    <form id="formularioUsuario">
+    <form [formGroup]="registroForm" id="formularioUsuario">
         <img src="assets/img/registro.png" alt="registrto">
 
         <!-- colocar id al input y colocar span al id -->
-        <input type="text" placeholder="Digita tu usuario" id="usuario" />
+        <input type="text" formControlName="usuario" placeholder="Digita tu usuario" id="usuario" />
         <span id="usuarioError" class="color-error"></span>
 
-        <input type="password" placeholder="Digita tu contraseña" id="clave" />
+        <input type="password" formControlName="clave" placeholder="Digita tu contraseña" id="clave" />
         <span id="claveError" class="color-error"></span>
 
         <textarea name="" id="" cols="30" rows="5" maxlength="100"></textarea>
@@ -26,7 +26,11 @@
             </select>
         </div>
 
-        <button type="submit">Registrar Usuario</button>
+        <div *ngIf="mostrarMensaje" class="mensajeerror">
+            <p>Se deben llenar los campos</p>
+        </div>
+
+        <button type="submit" (click)="registrarUsuario()">Registrar Usuario</button>
 
         <div class="recordarContraseñas">
             <input type="checkbox" name="recordar">

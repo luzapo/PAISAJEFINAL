@@ -1,13 +1,14 @@
+
 .logo {
     margin-left: 45px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 nav ul {
     display: flex;
     flex-direction: row;
     list-style: none;
-    margin-top: 35px;
+    margin-top: 50px;
     color: white;
     text-decoration: none;
 }

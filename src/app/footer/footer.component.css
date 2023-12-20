@@ -2,6 +2,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 20px;
 }
 
 .copyright ul li {
@@ -30,4 +31,10 @@ footer {
     color: white;
     font-size: 18px;
     list-style: none;
+}
+
+.vacio {
+    width: 100%;
+    height: 30px;
+    background-color: #071116;
 }

@@ -1,0 +1,18 @@
+h1{
+    background-color: #071116;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    width: 100%; 
+   
+}
+
+.video{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Esto centra verticalmente en la pantalla */
+}
